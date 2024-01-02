@@ -36,12 +36,10 @@ function createGrid(numberOfRows) {
     container.style.gridTemplateRows = gridTemplateColumns;
 
     let brightness = [];
-
-    let i = 0;
     let numberOfBoxes = numberOfRows ** 2;
 
     /*Create boxes*/
-    for (i; i < numberOfBoxes; i++) {
+    for (let i=0; i < numberOfBoxes; i++) {
         brightness[i + 1] = 1;
         console.log(brightness);
 
